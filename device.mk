@@ -52,5 +52,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
