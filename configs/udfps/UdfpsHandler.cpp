@@ -107,12 +107,15 @@ class XiaomiKonaUdfpsHandler : public UdfpsHandler {
     }
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
+        // Ensure touchscreen is aware of the press state, ideally this is not needed
         set(DISPPARAM_PATH, DISPPARAM_HBM_UDFPS_ON);
     }
     void onFingerUp() {
+        // Ensure touchscreen is aware of the press state, ideally this is not needed
         set(DISPPARAM_PATH, DISPPARAM_HBM_UDFPS_OFF);
     }
     void onAcquired(int32_t result, int32_t vendorCode) {
+        // Set finger as up to disable HBM already, even if the finger is still pressed
         if (result == FINGERPRINT_ACQUIRED_GOOD) {
             if (!enrolling) {
                 set(DISPPARAM_PATH, DISPPARAM_HBM_UDFPS_OFF);
