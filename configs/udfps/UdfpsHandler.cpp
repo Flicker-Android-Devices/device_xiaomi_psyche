@@ -132,7 +132,6 @@ class XiaomiKonaUdfpsHandler : public UdfpsHandler {
     }
 
     void cancel() {
-        enrolling = false;
         set(DISPPARAM_PATH, DISPPARAM_HBM_UDFPS_OFF);
         int arg[2] = {TOUCH_UDFPS_ENABLE, UDFPS_STATUS_OFF};
         ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
