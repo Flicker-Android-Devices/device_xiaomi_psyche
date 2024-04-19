@@ -42,5 +42,36 @@ vendor.audio_hal.period_multiplier=2
 # Audio hardware
 ro.hardware.audio.primary=psyche
 
+# DisplayFeature
+ro.vendor.colorpick_adjust=true
+ro.vendor.all_modes.colorpick_adjust=true
+ro.vendor.display.type=oled
+ro.vendor.xiaomi.bl.poll=true
+ro.vendor.histogram.enable=true
+ro.vendor.fod.dimlayer.enable=true
+ro.vendor.cabc.enable=false
+ro.vendor.bcbc.enable=true
+ro.vendor.dfps.enable=false
+ro.vendor.soft_backlight.enable=false
+ro.vendor.hbm_backlight.enable=true
+ro.vendor.video_box.version=2
+ro.vendor.localhbm.enable=true
+persist.vendor.dc_backlight.enable=false
+persist.vendor.fod.modified.dc_status=false
+persist.vendor.dc_backlight.threshold=327
+persist.vendor.dfps.level=120
+persist.vendor.power.dfps.level=0
+ro.vendor.df.effect.conflict=1
+persist.vendor.df.extcolor.proc=0
+ro.vendor.display.default_fps=60
+ro.vendor.gcp.enable=1
+ro.vendor.sre=1
+persist.vendor.light.bit.switch=true
+ro.vendor.smart_dfps.enable=true
+ro.vendor.standard.video.enable=true
+ro.vendor.video.decode.only=false
+ro.vendor.whitepoint_calibration_enable=false
+vendor.hbm.enable=true
+
 # TouchFeature
 ro.vendor.touchfeature.type=183
