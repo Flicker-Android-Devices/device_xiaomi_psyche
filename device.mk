@@ -31,13 +31,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
     libudfpshandler
 
-# Nfc
-PRODUCT_PACKAGES += PsycheNfc
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.udfps
@@ -52,8 +45,13 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# WiFi
+# Overlays
 PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    NfcTargetOverlay \
+    SettingsTargetOverlay \
+    SystemUITargetOverlay \
     TargetWifiOverlay
 
 # Inherit from vendor blobs

@@ -10,15 +10,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Xiaomi Pad 6 specific wifi overlays -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.psyche"
-    android:versionCode="1"
-    android:versionName="1.0">
-    <application android:hasCode="false" />
+    package="com.android.frameworks.overlay.target">
+
+    <application android:hasCode="false" android:allowBackup="false"/>
     <overlay
-      android:targetPackage="com.android.wifi.resources"
-      android:targetName="WifiCustomization"
+      android:targetPackage="android"
       android:isStatic="true"
-      android:priority="1"/>
+      android:priority="850"/>
 </manifest>

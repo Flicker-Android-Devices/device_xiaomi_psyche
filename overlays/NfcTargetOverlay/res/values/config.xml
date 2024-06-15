@@ -16,7 +16,7 @@
 -->
 <resources>
 
-    <string-array name="config_skuSupportsSecureNfc">
+    <string-array name="config_skuSupportsSecureNfc" translatable="false">
         <item>psyche</item>
     </string-array>
 
