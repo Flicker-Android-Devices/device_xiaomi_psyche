@@ -408,7 +408,14 @@ vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
 # Display-calibration
+product/etc/displayconfig/display_id_19260527152667265.xml:vendor/etc/displayconfig/display_id_19260527152667265.xml
+product/etc/displayconfig/display_id_4630946545580055169.xml:vendor/etc/displayconfig/display_id_4630946545580055169.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml
+vendor/etc/mdss_dsi_l3a_mp_42_02_0a_dsc_cmd_mi.xml
+
+# Display-calibration ltm
+vendor/etc/ltm_config_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml
+vendor/etc/tunings.txt
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
