@@ -1054,8 +1054,8 @@
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
-        <ctl name="TX_DEC0 Volume" value="88" />
+        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="TX_DEC0 Volume" value="87" />
     </path>
 
     <path name="voice-headphones">
