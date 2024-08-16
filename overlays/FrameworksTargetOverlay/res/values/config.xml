@@ -473,7 +473,7 @@
         brightness changes occur in response to an observed change in light level that exceeds the
         hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
 
     <!-- Minimum screen brightness setting allowed by power manager.
         The user is forbidden from setting the brightness below this level. -->
