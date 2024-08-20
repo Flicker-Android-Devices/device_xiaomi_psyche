@@ -451,6 +451,9 @@ vendor/etc/libnfc-nxp.conf
 vendor/etc/sn100u_nfcon.pnscr
 vendor/lib64/libsn100u_fw.so
 
+# NVRAM
+vendor/bin/nv_mac
+
 # Sensor calibrate
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
