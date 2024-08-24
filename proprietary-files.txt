@@ -617,6 +617,9 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
+# Thermal
+vendor/bin/mi_thermald
+
 # Thermal config
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-8k.conf
