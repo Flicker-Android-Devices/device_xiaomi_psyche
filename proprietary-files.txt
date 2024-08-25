@@ -632,7 +632,6 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
 vendor/etc/thermal-per-camera.conf
 vendor/etc/thermal-per-class0.conf
 vendor/etc/thermal-per-huanji.conf
@@ -641,7 +640,6 @@ vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-per-videochat.conf
 vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-videochat.conf
 vendor/etc/thermald-devices.conf
