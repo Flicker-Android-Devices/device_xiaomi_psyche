@@ -50,7 +50,10 @@ PRODUCT_PACKAGES += \
     ApertureTargetOverlay \
     FrameworksTargetOverlay \
     NfcTargetOverlay \
+    SettingsProviderTargetOverlay \
     SettingsTargetOverlay \
+    SettingsTargetOverlayPsycheCN \
+    SettingsTargetOverlayPsycheGL \
     SystemUITargetOverlay \
     TargetWifiOverlay
 
