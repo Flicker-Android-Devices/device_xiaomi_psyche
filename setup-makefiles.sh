@@ -8,6 +8,7 @@
 function vendor_imports() {
     cat <<EOF >>"$1"
 		"hardware/qcom-caf/common/libqti-perfd-client",
+        "hardware/xiaomi",
 		"vendor/qcom/opensource/display",
 EOF
 }
