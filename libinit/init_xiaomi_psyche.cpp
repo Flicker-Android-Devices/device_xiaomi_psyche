@@ -22,6 +22,7 @@ static const variant_info_t psyche_global_info = {
     .cert = "2112123AG",
     .build_fingerprint = "Xiaomi/psyche_global/psyche:13/TKQ1.221114.001/V816.0.5.0.TLDMIXM:user/release-keys",
     .hwsku = "psyche",
+    .flavor = "psyche-user",
     .nfc = true,
 };
 
@@ -38,6 +39,7 @@ static const variant_info_t psyche_info = {
     .cert = "2112123AC",
     .build_fingerprint = "Xiaomi/psyche/psyche:13/TKQ1.221114.001/V816.0.10.0.TLDCNXM:user/release-keys",
     .hwsku = "psyche",
+    .flavor = "psyche-user",
     .nfc = true,
 };
 
