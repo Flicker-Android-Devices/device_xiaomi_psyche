@@ -54,8 +54,8 @@ vendor/lib/rfsa/adsp/misound_res_spk.bin
 # Audio
 vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.psyche.so;FIX_SONAME
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
-vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_psyche.so;FIX_SONAME
+vendor/lib/vndk/libxlog.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
@@ -195,16 +195,17 @@ vendor/lib64/libmialgo_video_seg.so
 vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmiphone_capture_ldc.so
 vendor/lib64/libmiphone_preview_ldc.so
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
+vendor/lib64/libpowercore.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaichvx_stub.so
@@ -233,7 +234,6 @@ vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libpowercore.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
@@ -315,6 +315,7 @@ vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
 # Camera configs
+vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
 vendor/etc/camera/102_SummerDay.png
 vendor/etc/camera/103_Fantasy.png
 vendor/etc/camera/104_Meet.png
@@ -335,7 +336,16 @@ vendor/etc/camera/125_Latin.png
 vendor/etc/camera/126_Fantasy2.png
 vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
+vendor/etc/camera/CFR_para_T_2x_V03.bin
+vendor/etc/camera/CFR_para_T_4x_V03.bin
+vendor/etc/camera/CFR_para_UW_V07.bin
+vendor/etc/camera/CFR_para_W_V03.bin
+vendor/etc/camera/GpuKernelRepo.pb
+vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x01.bin
+vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x03.bin
+vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/ai_enhance.dlc
+vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_tele4x.config
 vendor/etc/camera/almalence_sr_params_tele4x_iso100.config
 vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config
@@ -345,17 +355,12 @@ vendor/etc/camera/almalence_sr_params_tele4x_moon.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config
-vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_tele_iso100.config
-vendor/etc/camera/almalence_sr_params_wide_64M.config
 vendor/etc/camera/almalence_sr_params_wide.config
+vendor/etc/camera/almalence_sr_params_wide_64M.config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/bokehParams.json
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/CFR_para_T_2x_V03.bin
-vendor/etc/camera/CFR_para_T_4x_V03.bin
-vendor/etc/camera/CFR_para_UW_V07.bin
-vendor/etc/camera/CFR_para_W_V03.bin
 vendor/etc/camera/com.xiaomi.dcal.wu.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_txt_dsp.dlc
@@ -366,22 +371,17 @@ vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/goturn_search_dsp.dlc
 vendor/etc/camera/goturn_target_dsp.dlc
-vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/hdrcheckerparamsettings.yml
 vendor/etc/camera/hdrd_ui9_params.config
+vendor/etc/camera/mi_ldc_capture_params.json
+vendor/etc/camera/mi_ldc_preview_params.json
 vendor/etc/camera/miai_hdr_config.yaml
 vendor/etc/camera/miai_psn_config.yaml
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
-vendor/etc/camera/mi_ldc_capture_params.json
-vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x01.bin
-vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x03.bin
-vendor/etc/camera/MILDC_PACKDATA_VENDORID_0x07.bin
-vendor/etc/camera/mi_ldc_preview_params.json
-vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
-vendor/etc/camera/model_back_deblur.dlc
-vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model.dat
+vendor/etc/camera/model_back.dlc
+vendor/etc/camera/model_back_deblur.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/model_front_mibokeh_video.dlc
 vendor/etc/camera/reid_float.dlc
@@ -410,8 +410,8 @@ vendor/etc/init/init.batterysecret.rc
 # Display-calibration
 product/etc/displayconfig/display_id_19260527152667265.xml:vendor/etc/displayconfig/display_id_19260527152667265.xml
 product/etc/displayconfig/display_id_4630946545580055169.xml:vendor/etc/displayconfig/display_id_4630946545580055169.xml
-vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_l3a_mp_42_02_0a_dsc_cmd_mi.xml
+vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml
 
 # Display-calibration ltm
 vendor/etc/ltm_config_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml
@@ -460,7 +460,6 @@ vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors configs
-vendor/etc/sensors/calibratedCheck.json
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/sm8250_ak991x_0.json
@@ -505,7 +504,6 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/sx933x_0.json
 vendor/etc/sensors/config/tmd3719.json
-vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/proto/descriptor.proto
 vendor/etc/sensors/proto/nanopb.proto
 vendor/etc/sensors/proto/sns_accel.proto
@@ -585,6 +583,8 @@ vendor/etc/sensors/proto/sns_tilt.proto
 vendor/etc/sensors/proto/sns_tilt_to_wake.proto
 vendor/etc/sensors/proto/sns_ultra_violet.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
+vendor/etc/sensors/calibratedCheck.json
+vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 
@@ -597,10 +597,10 @@ vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/libnotifyaudiohal.so
-vendor/lib64/libsensorcal.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensor_cal_for_citvendorservice.so
 vendor/lib64/libsensor_cal_v2.so;DISABLE_CHECKELF
+vendor/lib64/libsensorcal.so
+vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
